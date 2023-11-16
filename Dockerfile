@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:slim
 WORKDIR /usr/app
 COPY package*.json ./
 RUN npm install
